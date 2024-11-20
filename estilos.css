@@ -2,25 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.banner{
-    
-    height: 500px;
-    background-image: url(img/bannerimg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-    
+.carousel-inner{
+max-height: 30rem;
 
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
 }
+
 
 .txt{
     font-size: 1.1rem;
+}
+
+@media (max-width: 750px){
+    #titulo-cuerpo{
+        width: 98% !important;
+        }
+
+    #imagen-cuerpo{
+        width: 95% !important;
+    }
 }
 
