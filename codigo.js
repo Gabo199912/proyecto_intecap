@@ -19,7 +19,7 @@ function removerClase(){
 
 
 const mapa = document.getElementById('titulo-mapa');
-let texto = "Muestra tu Ubicación"
+let texto = "Muestra tu Ubicación, Recarga la pagina y ve el efecto"
 
 
 
